@@ -36,6 +36,7 @@ public class GoogleSearchTest {
         news.click();//to click on the element
         Thread.sleep(4000);
         driver.quit();
+
     }
 }
 
