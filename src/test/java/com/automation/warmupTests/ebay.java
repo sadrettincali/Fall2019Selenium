@@ -1,13 +1,16 @@
 package com.automation.warmupTests;
 
 import com.automation.utilities.DriverFactory;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ebay {
     public static void main(String[] args) throws InterruptedException {
-        WebDriver driver= DriverFactory.createADriver("chrome");
+        WebDriverManager.chromedriver().version("79").setup();
+        WebDriver driver= new ChromeDriver();
         driver.get("http://ebay.com");
         driver.manage().window().maximize();
         driver.findElement(By.id("gh-ac")).sendKeys("java book");
