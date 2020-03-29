@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DriverFactory {
 
-    public static WebDriver createADriver(){
+    public static WebDriver createDriver(){
             WebDriverManager.chromedriver().version("79.0").setup();
         return new ChromeDriver();
     }
