@@ -1,4 +1,4 @@
-package com.automation.days.day5;
+package com.automation.zdays.day5;
 
 import com.automation.utilities.DriverFactory;
 import org.openqa.selenium.WebDriver;

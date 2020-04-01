@@ -1,4 +1,4 @@
-package com.automation.days.day1;
+package com.automation.zdays.day1;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,4 +1,4 @@
-package com.automation.days.day6;
+package com.automation.zdays.day6;
 
 import com.automation.utilities.BrowserUtils;
 import com.automation.utilities.DriverFactory;

@@ -1,4 +1,4 @@
-package com.automation.days.day2;
+package com.automation.zdays.day2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

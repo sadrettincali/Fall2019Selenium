@@ -1,4 +1,4 @@
-package com.automation.days.day8TestNG;
+package com.automation.zdays.day8TestNG;
 
 import com.automation.utilities.BrowserUtils;
 import com.automation.utilities.DriverFactory;
